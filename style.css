@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poopins', sans-serif;
+}
+
+body {
+    align-items: center;
+    background-size: cover;
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 500px;
+    height: 80vh;
+    background: #fff;
+    border-radius: 15px;
+    margin: 20px auto; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center; 
+    margin: 20px 0;
+    font-size: 2.5em;
+}
+
+.input-container {
+    position: relative; 
+    display: flex; 
+    margin: 20px 0; 
+}
+
+.input-container i {
+    position: absolute; 
+    left: 3px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    font-size: 18px; 
+}
+
+.input-container input {
+    border: none; 
+    border-bottom: 2px solid #000; 
+    width: 100%; 
+    padding-left: 30px; 
+    outline: none; 
+    padding: 20px;
+    }
+
+.forget {
+    display: block; 
+    margin-top: 10px; 
+    text-align: right; 
+    
+}
+.forget a{
+    text-decoration: none;
+    color: #000;
+}
+
+.h6 {
+    font-weight: normal; 
+    font-size: 1.0em;
+    margin: -20px 0;
+    text-align: left;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #3fbbe4,#6a5dda, #ff00c8); 
+    color: #fff;
+    border: none;
+    border-radius: 30px; 
+    font-size: 16px;
+}
+
+p {
+
+    align-items: center;  
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: line; 
+    justify-content: center; 
+
+}
+
+.facebook {
+    background-color: blue;
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.twitter {
+    background-color: rgb(9, 169, 233);
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.google {
+    background-color: rgb(231, 50, 50);
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.forget-link a {
+    display: block; 
+    text-decoration: none; 
+    text-align: center; 
+    color: #000;
+    margin: 0 auto; 
+}
